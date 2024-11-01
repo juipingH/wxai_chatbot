@@ -151,7 +151,7 @@ if st.button("Submit Task"):
         "decoding_method": decoding_method_1,
         "max_new_tokens": max_tokens_1,
         "min_new_tokens": min_tokens_1,
-        "stop_sequences": ["。\n\n\n"]
+        "stop_sequences": ["。\n\n"]
         # "stop_sequences": "\n\n"
         # "temperature": temperature_1,
         # "top_k": top_k_1,
@@ -162,7 +162,7 @@ if st.button("Submit Task"):
         "decoding_method": decoding_method_1,
         "max_new_tokens": max_tokens_1,
         "min_new_tokens": min_tokens_1,
-        "stop_sequences": ["。\n\n\n"]
+        "stop_sequences": ["。\n\n"]
         # "temperature": temperature_1,
         # "top_k": top_k_1,
         # "top_p": top_p_1,
