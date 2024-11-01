@@ -179,7 +179,7 @@ if st.button("Submit Task"):
     model_2 = WatsonxLLM(
         model_id=model_2_id,
         watsonx_client=api_client,
-        params=parameters_2
+        params=parameters_1
     )
 
     model_3 = WatsonxLLM(
