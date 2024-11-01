@@ -123,7 +123,7 @@ model_1_id = "ibm/granite-3-8b-instruct"
 st.sidebar.markdown(f"### {model_options[model_1_id]} Parameters")
 decoding_method_1 = st.sidebar.radio(f"Select Decoding Method for {model_options[model_1_id]}", ["greedy","sample"], key="decoding_method_1")
 min_tokens_1 = st.sidebar.number_input(f"Min Tokens for {model_options[model_1_id]}", min_value=1, max_value=500, value=1, key="min_tokens_1")
-max_tokens_1 = st.sidebar.number_input(f"Max Tokens for {model_options[model_1_id]}", min_value=10, max_value=2000, value=500, key="max_tokens_1")
+max_tokens_1 = st.sidebar.number_input(f"Max Tokens for {model_options[model_1_id]}", min_value=10, max_value=2000, value=200, key="max_tokens_1")
 temperature_1 = st.sidebar.slider(f"Temperature for {model_options[model_1_id]}", min_value=0.0, max_value=1.0, value=0.7, key="temperature_1") if decoding_method_1 == "sample" else None
 top_k_1 = st.sidebar.slider(f"Top-K for {model_options[model_1_id]}", min_value=1, max_value=100, value=50, key="top_k_1") if decoding_method_1 == "sample" else None
 top_p_1 = st.sidebar.slider(f"Top-P for {model_options[model_1_id]}", min_value=0.0, max_value=1.0, value=1.0, key="top_p_1") if decoding_method_1 == "sample" else None
@@ -151,7 +151,7 @@ if st.button("Submit Task"):
         "decoding_method": decoding_method_1,
         "max_new_tokens": max_tokens_1,
         "min_new_tokens": min_tokens_1,
-        "stop_sequences": ["\n\n","。"]
+        "stop_sequences": ["\n\n\n"]
         # "stop_sequences": "\n\n"
         # "temperature": temperature_1,
         # "top_k": top_k_1,
@@ -162,7 +162,7 @@ if st.button("Submit Task"):
         "decoding_method": decoding_method_1,
         "max_new_tokens": max_tokens_1,
         "min_new_tokens": min_tokens_1,
-        "stop_sequences": ["\n\n","。"]
+        "stop_sequences": ["\n\n\n"]
         # "temperature": temperature_1,
         # "top_k": top_k_1,
         # "top_p": top_p_1,
