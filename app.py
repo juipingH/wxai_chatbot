@@ -25,8 +25,8 @@ api_client = APIClient(credentials, project_id=project_id)
 task_options = {
     "text-generation": "文本生成",
     "summarization": "摘要",
-    "code-generation": "程式碼生成",
     "translation": "翻譯",
+    "code-generation": "程式碼生成"
 }
 
 # Model Options
