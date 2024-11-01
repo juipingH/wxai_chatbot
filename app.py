@@ -152,7 +152,7 @@ if st.button("Submit Task"):
         "max_new_tokens": max_tokens_1,
         "min_new_tokens": min_tokens_1,
         "stop_sequences": ["。\n\n\n"],
-        "repetition_penalty": 1
+        "repetition_penalty": 2
         # "stop_sequences": "\n\n"
         # "temperature": temperature_1,
         # "top_k": top_k_1,
@@ -164,7 +164,7 @@ if st.button("Submit Task"):
         "max_new_tokens": max_tokens_1,
         "min_new_tokens": min_tokens_1,
         "stop_sequences": ["。\n\n\n"],
-        "repetition_penalty": 1
+        "repetition_penalty": 2
         # "temperature": temperature_1,
         # "top_k": top_k_1,
         # "top_p": top_p_1,
