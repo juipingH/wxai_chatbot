@@ -141,7 +141,6 @@ if st.button("Submit Task"):
         "max_new_tokens": max_tokens_1,
         "min_new_tokens": min_tokens_1,
         "repetition_penalty": 1,
-        "stop_sequences": ["\n\n"],
         # "stop_sequences": "\n\n"
         # "temperature": temperature_1,
         # "top_k": top_k_1,
