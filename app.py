@@ -163,8 +163,6 @@ if st.button("Submit Task"):
         "decoding_method": decoding_method_1,
         "max_new_tokens": max_tokens_1,
         "min_new_tokens": min_tokens_1,
-        "stop_sequences": ["\n\n\n"],
-        "repetition_penalty": 1
         # "temperature": temperature_1,
         # "top_k": top_k_1,
         # "top_p": top_p_1,
@@ -179,7 +177,7 @@ if st.button("Submit Task"):
     model_2 = WatsonxLLM(
         model_id=model_2_id,
         watsonx_client=api_client,
-        params=parameters_1
+        params=parameters_2
     )
 
     model_3 = WatsonxLLM(
