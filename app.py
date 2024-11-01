@@ -33,7 +33,7 @@ task_options = {
 # Model Options
 model_options = {
     "mistralai/mistral-large": "Mistral Large",
-    "meta-llama/llama-3-1-70b-instruct": "Llama 3-1 70B Instruct",
+    "meta-llama/llama-3-70b-instruct": "Llama 3-1 70B Instruct",
     "meta-llama/llama-3-1-8b-instruct": "LLAMA 3-1 8B INSTRUCT",
     "ibm/granite-3-8b-instruct": "Granite 3 8B Instruct",
     "ibm/granite-3-2b-instruct": "Granite 3 2B Instruct",
