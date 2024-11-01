@@ -77,7 +77,7 @@ default_parameters = {
     "decoding_method": "greedy",
     "max_new_tokens": 1000,
     "min_new_tokens": 30,
-    "repetition_penalty": 1
+    "stop_sequences": []
     # "stop_sequences": "\n\n"
 }
 
