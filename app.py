@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set API key and project ID
-watsonx_api_key = os.getenv("API_KEY", None)
-project_id = os.getenv("PROJECT_ID", None)
-wx_url = os.getenv("WX_URL", None)
+watsonx_api_key = "djaQbKrnM6kHzAYKr1ftcB9IvJWnZ0pmN-9A7Px2twLT"
+project_id = "69a51a7e-d0bf-41e6-a35e-ec661b5ae858"
+wx_url = "https://us-south.ml.cloud.ibm.com"
 
 # Check if API Key and Project ID exist
 if not all([watsonx_api_key, project_id, wx_url]):
