@@ -23,6 +23,7 @@ api_client = APIClient(credentials, project_id=project_id)
 
 # Task Options
 task_options = {
+    "qa": "問答",
     "text-generation": "文本生成",
     "summarization": "摘要",
     "translation": "翻譯",
@@ -41,7 +42,7 @@ model_options = {
 
 # Task-specific prompt templates
 task_prompts = {
-    "Q&A":{
+    "qa":{
         "請用台灣繁體中文回覆所有內容。",
         "請根據使用者的問題進行回答",
         "輸入的問題是：\n{input_text}\n"
