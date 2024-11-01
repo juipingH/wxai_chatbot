@@ -96,7 +96,7 @@ st.markdown("""
 
 # Streamlit UI Layout
 st.markdown('<div class="container">', unsafe_allow_html=True)
-st.markdown('<div class="title">🤖 LLM Model Comparison Arena 🤖</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">LLM Model Comparison Arena</div>', unsafe_allow_html=True)
 st.sidebar.title("Model & Task Selection")
 
 
